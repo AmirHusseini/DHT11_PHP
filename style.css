@@ -1,0 +1,40 @@
+body {
+	font-family: Arial;
+	margin: 0;
+	
+}
+#table-scroll {
+  height:500px;
+  overflow:auto;  
+
+}
+th, td {
+  padding: 0.25rem;
+}
+
+th {
+  background: white;
+  position: sticky;
+  top: 0; 
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+section {
+
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+}
+aside {
+  float: right;
+  margin: 0 1.5%;
+  background-color: #DDEFEF;
+
+}
